@@ -1,0 +1,6 @@
+{
+  "name": "Klinik Finance - Sistem Administrasi Keuangan",
+  "description": "Prototipe sistem administrasi keuangan klinik kesehatan umum dengan 3 poli (Umum, Gigi, Kandungan) untuk Pemilik dan Admin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

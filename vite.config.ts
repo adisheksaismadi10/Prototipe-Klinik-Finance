@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Tambahkan baris ini. Ganti dengan nama repositori GitHub kamu!
+    base: '/github.com/adisheksaismadi10/Prototipe-Klinik-Finance/', 
+    
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

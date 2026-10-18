@@ -5,8 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // Tambahkan baris ini. Ganti dengan nama repositori GitHub kamu!
-    base: '/github.com/adisheksaismadi10/Prototipe-Klinik-Finance/', 
+    // HANYA nama repositori saja, tanpa domain atau username
+    base: '/Prototipe-Klinik-Finance/', 
     
     plugins: [react(), tailwindcss()],
     resolve: {
@@ -15,10 +15,7 @@ export default defineConfig(() => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
-      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
   };
